@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import PlayersView from "../views/PlayersView.vue";
-import WeightView from "../views/weightView.vue";
+import WeightView from "../views/WeightView.vue";
 import NotFoundPage from "../views/NotFoundPage.vue";
 
 const router = createRouter({
