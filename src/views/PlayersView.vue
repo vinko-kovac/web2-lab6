@@ -26,17 +26,6 @@ export default {
   },
   computed: {
     ...mapState(usePlayerStore, ["getPlayers"]),
-    calculateCategory: function () {
-      return (weight) => {
-        if (weight <= 80) {
-          return "Lightweight";
-        } else if (weight >= 95) {
-          return "Heavyweight";
-        } else {
-          return "Middleweight";
-        }
-      };
-    },
   },
   methods: {
     ...mapActions(usePlayerStore, ["refreshPlayers"]),
