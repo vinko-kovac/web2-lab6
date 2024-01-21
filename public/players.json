@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Pero Peric",
+        "weight": 98
+    },
+    {
+        "id": 2,
+        "name": "Ivo Ivic",
+        "weight": 87
+    },
+    {
+        "id": 3,
+        "name": "Marko Markic",
+        "weight": 95
+    },
+    {
+        "id": 4,
+        "name": "Luka Lukic",
+        "weight": 76
+    }
+]
